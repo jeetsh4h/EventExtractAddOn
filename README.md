@@ -5,6 +5,9 @@ for the CSIT205 course of FLAME University in the academic year 2022-23.
 
 The web application is built using the Flask web framework and Bootstrap as a front-end framework.  
 The database engine to be used is sql,, in the python module itself.
+^ This might not be necessary, as we might not get this to deploy in the near future  
+therefore, using sqlite should suffice.
+_will have to build in queing system to make sure there aren't a lot of concurrent writes_
 
 
 - The app plans on being a place where it is easy for students to find a peer tutor for a given subject.  
