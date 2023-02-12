@@ -1,13 +1,14 @@
 import os
 
-from flask import Flask
-# from authlib.integrations.flask_client import OAuth
+from flask import Flask, session
 
 
 def create_app():
     app = Flask(__name__)
     app.config.from_mapping(
+# temp key, will make it safer later
         SECRET_KEY="brawl",
+# something seems off here, will probably change it
         DATABASE=os.path.join(app.instance_path, 'tutor.sqlite'),
     )
 
@@ -16,10 +17,13 @@ def create_app():
     except OSError:
         pass
 
-    @app.route('/test')
-    def check():
-    # do an api json check also
-        return '<h1><center>Hello, World!</center></h1>\n<script>alert("Hi Mom!")</script>'
+    @app.route('/test?<new_user>')
+    def check(new_user):
+# I don't know why this has to have an equality sign
+        if new_user == True:
+            return '<h1><center>Hello, {}</center></h1>'.format(session['user']['name'])
+        else:
+            return '<h1><center>Hello, User</center></h1>'
 
 
     from TutoringFLAME import db
