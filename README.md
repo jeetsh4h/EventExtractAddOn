@@ -25,3 +25,5 @@ reading the inbox of email as well as sending out mails.
 
 
 _Note: There will be a need to use some vanilla javascript_
+
+Update the steps needed for this to start working for each file, don't ignore the .gitgnore file

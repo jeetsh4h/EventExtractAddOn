@@ -20,6 +20,8 @@ def create_app():
     @app.route('/test?<new_user>')
     def check(new_user):
 # I don't know why this has to have an equality sign
+# this is breaking randomly, dont know why
+        print(session['user']['name'])
         if new_user == True:
             return '<h1><center>Hello, {}</center></h1>'.format(session['user']['name'])
         else:
