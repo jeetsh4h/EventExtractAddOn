@@ -1,0 +1,9 @@
+env
+__pycache__
+
+
+client_secret_.json
+instance
+
+thoughts.txt
+example_token.json
