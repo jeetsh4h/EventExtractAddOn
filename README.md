@@ -25,3 +25,11 @@ reading the inbox of email as well as sending out mails.
 
 
 _Note: There will be a need to use some vanilla javascript_
+
+---
+
+There are a couple sensitive files that you need to get from me for this to run.  
+Ask them from me, once you have set up your environment.
+
+You can set up to environment by creating a virtual enviornment using venv, and installing all the packages given  
+in the requirements file that is uploaded, if there are any updates, I will commit it to the main branch.  
