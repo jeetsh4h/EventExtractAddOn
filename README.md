@@ -4,6 +4,9 @@ for the CSIT205 course of FLAME University in the academic year 2022-23.
 ---
 
 ### WE have pivoted to a new idea.  
+
+# FLAMEMail
+
 We will use some of the same files and concepts as below but the project itself has been changed.
 
 We are going to read the logged-in user's FLAME emails and extract entities using natural language processing.  
