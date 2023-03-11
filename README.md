@@ -1,8 +1,19 @@
-# TutoringFLAME
-
 This is a project under development by Jeet Shah, Archit Murali, Suyash Lal  
 for the CSIT205 course of FLAME University in the academic year 2022-23.  
 
+---
+
+### WE have pivoted to a new idea.  
+We will use some of the same files and concepts as below but the project itself has been changed.
+
+We are going to read the logged-in user's FLAME emails and extract entities using natural language processing.  
+The deadlines will be sorted through and treated as a google calendar event that the user can choose to add.
+
+---
+---
+
+# TutoringFLAME
+---
 The web application is built using the Flask web framework and Bootstrap as a front-end framework.  
 The database engine to be used is sql,, in the python module itself.  
 ^ This might not be necessary, as we might not get this to deploy in the near future,  
